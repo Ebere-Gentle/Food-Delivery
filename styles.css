@@ -1,0 +1,63 @@
+
+
+.mobile-app{
+    margin: 20px;
+    text-align: center;
+    color: black;
+}
+
+.mobile-app div{
+    margin: 30px ;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+
+.footer-form {
+    background-color: var(--white);
+    padding: 10px;
+    border: 1px solid var(--cultured);
+    box-shadow: var(--shadow-2);
+    border-radius: 10px;
+    height: 320px;
+    
+    width: 300px;
+    position: absolute;
+    bottom: 0%;
+    left: 70%;
+    
+  }
+  .navbar-list li:hover{
+    border-bottom: 1px solid orange;
+    border-top: 1px solid orange;
+    transition: ease-in 1s;
+  }
+
+
+  .cart{
+    display: flex;
+    gap: 25px;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+  }
+  .cart{
+    position: relative;
+  }
+  .cart img{
+    width: 30px;
+    margin-right: 30px;
+    color: #fff;
+  }
+
+  .cart-count{
+    position: absolute;
+    left: 56%;
+    top: -10%;
+    font-size: 12px;
+    background-color: red;
+    padding: 1px 6px;
+    border-radius: 50%;
+  }
